@@ -17,7 +17,7 @@
     justify-content: flex-start;
 }
 
-.operators{
+.operators,.numbers{
     width:200px;
     height: 200px;
     background-color: #A4CCD9;
@@ -26,7 +26,7 @@
     font-size: medium;
 }
 
-.operators:hover{
+.operators:hover,.numbers:hover{
     border: 2px solid #018790;
 }
 
@@ -47,11 +47,9 @@
     height: 10%;
     text-align: center;
     padding: 40px 20px;
-}
-
-span{
     font-weight: 400;
     color: black;
     font-size: xx-large;
     text-align: center;
 }
+
